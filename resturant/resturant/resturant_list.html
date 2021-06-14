@@ -1,0 +1,12 @@
+<h1>Django Resturant App</h1>
+
+<ul>
+  {% for resturant in object_list %}
+  <li>
+    <h2>{{resturant.name}}</h2>
+    <h2>{{resturant.price}}</h2>
+    <h2>{{resturant.image}}</h2>
+    <!-- <p>{{book.author}}</p> -->
+    </li>
+    {% endfor %}
+  </ul>
